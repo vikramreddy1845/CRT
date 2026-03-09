@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./IV-SEM/Python/assignments/M01_Language_&_Programming_Basics/AST01"
+    ]
+}

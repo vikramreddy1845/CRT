@@ -1,0 +1,9 @@
+def Student_Grade_System(name: str, n1: int, n2: int, n3: int) -> str:
+    average = (n1 + n2 + n3) / 3
+    status = "Pass" if average >= 35 else "Fail"
+    return f"Average grade: {average:.2f}, Status: {status}"
+
+if __name__ == '__main__':
+    name = input()
+    n1, n2, n3 = map(int, input().split())
+    print(Student_Grade_System(name, n1, n2, n3))
